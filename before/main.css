@@ -505,8 +505,6 @@ p {
   display: block;
   padding: 10px 52px;
   margin: 0 auto;
-  font-weight: 700;
-  letter-spacing: 0.06em;
   background-color: var(--accent-blue);
   color: var(--accent-text-cl);
   border: none;
@@ -552,31 +550,6 @@ p {
 
 .social-list__icon {
   fill: currentColor;
-}
-
-.thumb {
-  position: relative;
-  overflow: hidden;
-}
-
-.thumb__text {
-  position: absolute;
-  left: 0;
-  -webkit-transition: -webkit-transform var(--animation-time) var(--animation-cubic);
-  transition: -webkit-transform var(--animation-time) var(--animation-cubic);
-  transition: transform var(--animation-time) var(--animation-cubic);
-  transition: transform var(--animation-time) var(--animation-cubic), -webkit-transform var(--animation-time) var(--animation-cubic);
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 63px 24px;
-  background-color: var(--portfolio-bgc-thumb);
-  color: var(--accent-text-cl);
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .backdrop {
@@ -839,71 +812,10 @@ p {
   fill: currentColor;
 }
 
-.portfolio-btn-list {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-}
-
-.portfolio-list {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 30px;
-}
-
-.portfolio-list__item {
-  width: 370px;
-  height: 404px;
-  position: relative;
-}
-
-.portfolio-list__link {
-  -webkit-transition: -webkit-box-shadow var(--animation-time) var(--animation-cubic);
-  transition: -webkit-box-shadow var(--animation-time) var(--animation-cubic);
-  transition: box-shadow var(--animation-time) var(--animation-cubic);
-  transition: box-shadow var(--animation-time) var(--animation-cubic), -webkit-box-shadow var(--animation-time) var(--animation-cubic);
-  display: block;
-  height: 100%;
-  border: 1px solid #eeeeee;
-}
-
-.portfolio-list__link:hover,
-.portfolio-list__link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio-list__link:hover .thumb__text,
-.portfolio-list__link:focus .thumb__text {
-  -webkit-transform: translateY(-101%);
-          transform: translateY(-101%);
-}
-
-.portfolio-list__content-box {
-  padding: 20px 24px;
-}
-
-.portfolio-list__title {
-  color: var(--primary-text-cl);
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  margin-bottom: 4px;
-}
-
-.portfolio-list__text {
-  color: var(--secondary-text-cl);
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-}
-
 .hero {
   background-color: var(--hero-bgc);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/BCG/team.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/BCG/team.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/BCG/team.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/BCG/team.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -81,7 +81,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-
+    
     transition: color var(--animation-time) var(--animation-cubic);
 
     display: flex;
@@ -110,7 +110,8 @@
     display: block;
     padding: 10px 52px;
     margin: 0 auto;
-
+    font-weight: 700;
+    letter-spacing: .06em;
     background-color: var(--accent-blue);
     color: var(--accent-text-cl);
     border: none;
